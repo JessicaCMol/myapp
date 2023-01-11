@@ -9,7 +9,6 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Works from './Components/Works';
-import Languages from './Components/Languages';
 
 
 function App() {
