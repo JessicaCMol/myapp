@@ -67,6 +67,7 @@
   height: 140px;
   padding: 10px;
   bottom: 0;
+  position: fixed;
   background: #282c34;
   color: #fbfcff;
   font-family: 'Manjari';

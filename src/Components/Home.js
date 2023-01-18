@@ -37,8 +37,7 @@ class Home extends Component {
             </ul>
             <p className='puesto'>Front-End Developer</p>
           </div>
-          
-          <Listado></Listado>
+ 
 
           </div>
           

@@ -11,9 +11,9 @@ class Listado extends Component {
         axios.get('https://jsonplaceholder.typicode.com/users')
         .then(response => {
 
-            const users = response.data;
-            //console.log(users)
-            this.setState({users});
+            const persons = response.data;
+            console.log(persons)
+            this.setState({persons});
         })
 
     }
@@ -24,11 +24,18 @@ class Listado extends Component {
         return (
 
             <div>
-
-            
                 <p>Componente Listado</p>
             <ul>
-               {/*this.state.users.map(user => {data.name})*/}
+                
+               {this.state.persons.map(data => data.name)};
+               
+                <hr/>
+
+               {this.state.persons.map(data => 
+
+                <li>{data.name}</li>
+
+                )}
             </ul>
 
             </div>
