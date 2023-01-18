@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Listado from './Components/Listado';
 import Works from './Components/Works'
+import Formulario from './Components/Formulario';
 
 class Router extends Component {
     
@@ -18,11 +19,12 @@ class Router extends Component {
             
             <Navbar></Navbar>
 
-            <Route exact path="/" component={Home}></Route>
             <Route exact path="/list" component={Listado}></Route>
             <Route exact path="/works" component={Works}></Route>
-           
-
+            <Route exact path="/form" component={Formulario}></Route>
+          
+            <Route exact path="/" component={Home}></Route>
+            
             <Footer></Footer>
 
             </BrowserRouter>
@@ -36,7 +38,7 @@ export default Router;
 
 
 
-
+//<Route exact path="/*" component={Error}></Route>
 
 
 

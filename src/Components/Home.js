@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import Listado from './Listado';
+
 
 class Home extends Component {
-
-
-
 
     state = {  } 
     render() { 

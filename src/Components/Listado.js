@@ -23,6 +23,7 @@ class Listado extends Component {
     render() { 
         return (
 
+            //Expresiones Lamba
             <div>
                 <p>Componente Listado</p>
             <ul>
