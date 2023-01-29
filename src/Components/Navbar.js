@@ -5,8 +5,10 @@ class Navbar extends Component {
     state = {  } 
     render() { 
         return (
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <NavLink className="navbar-brand" to="/">My Portfolio</NavLink>
+          <nav className="navbar fixed-top navbar-expand-lg" >
+          <NavLink className="navbar-brand" to="/">
+          <img src="https://s3.amazonaws.com/vla.academy/wp-content/uploads/2020/08/13160600/vlamerica-logo.png" alt="logo-vla"></img>
+          </NavLink>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,15 +18,15 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/">HOME <span className="sr-only">(current)</span></NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/works">WORKS</NavLink>
+                <NavLink className="nav-link" to="/works">CURSOS</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/list">LINK</NavLink>
+                <NavLink className="nav-link" to="/acercavla">ACERCA DE VLA</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/form">FORMULARIO</NavLink>
+                <NavLink className="nav-link" to="/empleados">EMPLEADOS</NavLink>
               </li>
-
+              
             </ul>
           </div>
         </nav>
@@ -33,3 +35,19 @@ class Navbar extends Component {
 }
  
 export default Navbar;
+
+
+/*              <li className="nav-item">
+                <NavLink className="nav-link" to="/cont">CONTADOR</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/hooks">HOOKS</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/listapi">LISTADO API</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/form2">FORMULARIO 2</NavLink>
+              </li>
+
+*/

@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Manjari&family=Poppins:wght@700&display=swap'); 
 
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .App {
@@ -46,13 +49,16 @@
 }
 
 
-/*NAVBAR*/
+/*                                               NAVBAR                                               */
+nav{
+  background: #272568;
+}
 .collapse{
   display: flex;
   justify-content: right;
   width: 100%;
-  height: 60px;
-  font-family: Poppins;
+  height: 50px;
+  font-family: 'Poppins';
 }
 
 .navbar-brand{
@@ -61,14 +67,20 @@
   font-size: 30px;
 }
 
-/*FOOTER*/
+.nav-link{
+  color: #D1D4F0;
+  position: relative;
+}
+
+
+
+/*                                              FOOTER                                              */
 .footer{
   width: 100%;
-  height: 140px;
+  height: 180px;
   padding: 10px;
   bottom: 0;
-  position: fixed;
-  background: #282c34;
+  background: #272568;
   color: #fbfcff;
   font-family: 'Manjari';
   font-size: 15px;
@@ -77,7 +89,21 @@
 
 
 
-/*HOME*/
+
+
+/*                                               HOME                                               */
+
+.container{
+  min-height: 100vh;
+  width: 100%;
+  place-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: #CECFC9;
+}
+.first-img{
+
+}
+
 .card-deck{
   margin: 100px;
 }
@@ -88,7 +114,10 @@
   font-size: 18px;
 }
 
-
+.companias-img{
+  width: 150px;
+  height: 60px;
+}
 
 .present{
   display: inline-block;
@@ -99,31 +128,64 @@
   font-family: 'Manjari', sans-serif;
   
 }
-.myname{
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  background-image: url(https://cdn.wallpapersafari.com/65/26/FHsliK.jpg);
+
+
+.introduccion{
+  margin-right: 160px;
+  margin-bottom: 250px;
+  padding: 3%;
+  color: #fbfcff;
+  font-family: 'Manjari';
+  top: 0;
+}
+
+.buttons{
+  display: block;
+  padding: 50px;
+  margin-right: 150px;
+  margin-top: 350px;
+}
+
+.btn{
+  width: 90px;
+  height: 40px;
+  background: blue ;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+  align-items: center;
+}
+
+.first{
+
+  background-image: url(https://img1.wallspic.com/attachments/originals/4/3/0/3/2/123034-dia-la_luz_azul-turquesa-triangulo-amarillo-3500x1968.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100%;
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
+  overflow: hidden;
 }
 
-.firstul{
-  margin-left: 100px;
-  display: flex;
-  position: absolute;
-  margin-bottom: 100px;
+.second{
+  margin: 8% 0;
+  padding: 30px;
 }
 
-.secondul{
-  margin-left: 100px;
-  display: flex;
-  position: absolute;
-  margin-top: 110px;
+.third{
+  font-size: 15px;
+  padding: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.row-first{
+  font-size: 12px;
+  margin: 20px;
 }
 
 li{
@@ -163,18 +225,21 @@ li{
   font-family: 'Manjari', sans-serif;;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  background-color: linear-gradient(45deg, black, green);
-}
 
-/*WORKS*/
+
+
+
+
+/*                                               WORKS                                               */
+
+.container-cursos{
+  background: #CECFC9;
+}
 
 .projects{
   text-align: center;
   margin: 20px;
-  margin-top: 50px;
+  margin-top: 10px;
   display: inline-block;
   font-family: Poppins;
 }
@@ -189,13 +254,49 @@ li{
   position: absolute;
   background-color: red;
 }
+.card{
+  background: #0A3143;
+  color: #CECFC9;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25s;
+  align-items: center;
+}
+
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
 
 .card-body{
-  box-shadow: inset 4px 3px rgb(70, 70, 71) ;
+  font-size: 14px;
+}
+
+.card-deck{
+  padding: 0 70px;
+}
+
+.btn-outline-dark{
+  background: #ffffff;
+  font-size: 16px;
+  width: 200px;
+ border: none;
+ 
+}
+
+.btn-outline-dark:hover{
+  background: #1a5773;
+  border: none;
 }
 
 
-/*CONTACT*/
+/*                                               CARDS CON EFECTO HOVER                                               */
+
+
+
+/*                                               CONTACT                                               */
 
 .contact{
     padding: 10px;
@@ -204,3 +305,105 @@ li{
 
 
 
+
+/*                                               EMPLEADOS                                               */
+
+.container-empleados{
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+  background: #CECFC9;
+  font-family: 'Poppins';
+}
+
+.empleados-div1{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.empleados-div2{
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.empleados-div3{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+
+.img-empleados{
+  width: 550px;
+  height: 300px;
+  float: right;
+}
+
+/*                                               COMMENTS EMPLEADOS                                               */
+
+.row-empleados{
+  margin-top: 15%;
+  font-size: 13px;
+}
+
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background-color: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.img-text h2{
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p{
+  font-size: 12px;
+}
+
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  width: 370px;
+  height: 300px;
+}
+
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+}
+
+.img-area img{
+  width: 100%;
+}
+
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+
+.carousel-indicators li{
+  background: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}

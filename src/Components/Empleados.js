@@ -1,18 +1,12 @@
-/*
-
-
 import React, {Component} from 'react';
 
-class Error extends Component {
+class Empleados extends Component {
     state = {  } 
     render() { 
         return (
-
             <div></div>
         );
     }
 }
  
-export default Error;
-
-*/
+export default Empleados;

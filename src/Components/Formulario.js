@@ -1,3 +1,5 @@
+
+
 import React, {Component} from 'react';
 
 class Formulario extends Component {
@@ -6,26 +8,28 @@ class Formulario extends Component {
         return (
 
             <div>
-                <form>
-                <div className='form-group'>
-                    <label>Nombre: </label>
-                    <input className='form-control' type="text" name="name"></input>
-                </div>
-                <div className='form-group'>
-                    <label>Edad: </label>
-                    <input className='form-control' type="text" name="edad"></input>
-                </div>
-                
-                <div className='form-group'>
-                <input className='btn btn-danger btn-block' type="submit" >Enviar</input>
-                </div>
-
-                
-                </form>
+            <form>
+            <div className='form-group'>
+                <label>Nombre: </label>
+                <input className='form-control' type="text" name="name"></input>
+            </div>
+            <div className='form-group'>
+                <label>Edad: </label>
+                <input className='form-control' type="text" name="edad"></input>
+            </div>
+            
+            <div className='form-group'>
+            <input className='btn btn-danger btn-block' type="submit" >Enviar</input>
             </div>
 
+            
+            </form>
+        </div>
         );
     }
 }
 
 export default Formulario;
+
+
+
