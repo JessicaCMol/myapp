@@ -6,14 +6,14 @@ class Footer extends Component {
         return (
                 
                
-                        <div class="footer sticky-bottom">
+                        <div class="footer sticky-bottom p-5 w-100 h-50">
             
                             <div class="row">
-                                <div class="col-6 col-md-4">
+                                <div class=" col-md-4 col-">
                                     <p>ACERCA DE VLA</p>
                                     <p>Front-End Developer and UI Designer</p>
                                 </div>
-                                <div class="col-6 col-md-4">
+                                <div class=" col-md-4 col-">
                                     <ul>
                                     <li>https://www.vla.academy.com</li>
                                     <li>+507 833-5602</li>
@@ -22,7 +22,7 @@ class Footer extends Component {
                                     <li>+34 911 23 5522</li>
                                     </ul>
                                 </div>
-                                <div class="col-6 col-md-4">
+                                <div class=" col-md-4 col-">
                                     <p>Nuestras redes sociales:</p>
                                     <ul>
                                         <li>Facebook</li>

@@ -1,4 +1,3 @@
-/*
 
 import React, {Fragment, useState } from 'react';
 
@@ -48,5 +47,3 @@ const Hooks = () => {
 }
  
 export default Hooks;
-
-*/

@@ -9,7 +9,7 @@ class Home extends Component {
           
           
           
-          <div className='container'>
+          <div className='container-home container-fluid'>
           
           <div className='first'>
               
@@ -29,48 +29,48 @@ class Home extends Component {
           <div class="second">
             <p>Compañías que confian en VLA</p>
             <div class="row">
-              <div class="col-6 col-sm-2">
-               <img className='companias-img' src='https://logodownload.org/wp-content/uploads/2020/03/copa-airlines-logo.png'></img>
+              <div class="col-4 col-sm-2">
+               <img className='companias-img  w-100 h-50' src='https://logodownload.org/wp-content/uploads/2020/03/copa-airlines-logo.png' alt='unknown'></img>
               </div>
-              <div class="col-6 col-sm-2">
-                <img className='companias-img' src='https://static.wikia.nocookie.net/logopedia/images/7/79/Cable_Onda_%282013%29.png/revision/latest?cb=20171029085821&path-prefix=es'></img>
+              <div class="col-4 col-sm-2">
+                <img className='companias-img  w-100 h-50' src='https://static.wikia.nocookie.net/logopedia/images/b/b5/Cable_Onda_1991.png/revision/latest?cb=20200817141305&path-prefix=es' alt='unknown'></img>
               </div>
-              <div class="col-6 col-sm-2">
-                <img className='companias-img' src='https://lealto.com/wp-content/uploads/2021/02/Rocca_logo.png'></img>
+              <div class="col-4 col-sm-2">
+                <img className='companias-img w-100 h-50' src='https://lealto.com/wp-content/uploads/2021/02/Rocca_logo.png' alt='unknown'></img>
               </div>
-              <div class="col-6 col-sm-2">
-               <img className='companias-img' src='https://www.trintech.com/wp-content/uploads/2020/04/Auxis-Logo.png'></img>
+              <div class="col-4 col-sm-2">
+               <img className='companias-img  w-100 h-50' src='https://www.trintech.com/wp-content/uploads/2020/04/Auxis-Logo.png' alt='unknown'></img>
               </div>
-              <div class="col-6 col-sm-2">
-                <img className='companias-img' src='https://companieslogo.com/img/orig/CNXC_BIG-3709417e.png?t=1632605259'></img>
+              <div class="col-4 col-sm-2">
+                <img className='companias-img  w-100 h-50' src='https://companieslogo.com/img/orig/CNXC_BIG-3709417e.png?t=1632605259' alt='unknown'></img>
               </div>
-              <div class="col-6 col-sm-2">
-                <img className='companias-img' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Fujitsu-Logo.svg/1280px-Fujitsu-Logo.svg.png'></img>
+              <div class="col-4 col-sm-2">
+                <img className='companias-img  w-100 h-50' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Fujitsu-Logo.svg/1280px-Fujitsu-Logo.svg.png' alt='unknown'></img>
               </div>
             </div> 
           </div>
 
-          <div class="third">
+          <div class="third w-100 h-50">
             <h1>¿Por qué elegir a VLA?</h1>
-              <p>Aquí vamos un paso más allá y te damos asistencia para conseguir un nuevo empleo, preparándote para <br/>
+              <p class="col-sm-12 p-5 mb-5 ">Aquí vamos un paso más allá y te damos asistencia para conseguir un nuevo empleo, preparándote para <br/>
                   trabajar directamente con algunas de las empresas más importantes del mundo. </p>
                <p>Con VLA adquieres habilidades profesionales, certificados y títulos en línea. </p>
             <div class="row row-first">
-              <div class="col-6 col-md-4">
+              <div class="col-md-4 col-">
                 <p>Todos los cursos de VLA son enseñados totalmente <br/> 
                 en vivo, con un método de enseñanza único. Las <br/>
                 clases de VLA permiten a todos nuestros <br/>
                 estudiantes interactuar con sus profesores y <br/>
                  responder todas sus dudas en tiempo real.</p>
               </div>
-              <div class="col-6 col-md-4">
+              <div class="col-md-4 col-">
                 <p>Te preparamos para ganar las certificaciones más <br/>
                    importantes de la industria como Cisco, PMP, <br/>
                    Microsoft Azure, Scrum y muchas más. Con <br/>
                    profesores expertos y certificados 100% en <br/>
                     vivo por Internet.</p>
               </div>
-              <div class="col-6 col-md-4">
+              <div class="col-md-4 col-">
                 <p>Uno de los más grandes beneficios de VLA <br/>
                   es que  aquí tienes un programa de asistencia <br/>
                   completamente gratis que te prepara y ayuda <br/>

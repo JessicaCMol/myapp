@@ -1,4 +1,3 @@
-/*
 
 import React, { Component, Fragment, useEffect, useState } from 'react';
 
@@ -33,7 +32,7 @@ const ListadoApi = () => {
 
     return (
         <Fragment>
-            <h2 className='led-display-4'>Resultado del Api</h2>
+            <h2 className='led-display-4 m-5'>Resultado del Api</h2>
 
             <ul>
                 {
@@ -50,4 +49,3 @@ const ListadoApi = () => {
  
 export default ListadoApi;
 
-*/

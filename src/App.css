@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+body{
+
+  max-width: 100%;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -52,37 +58,43 @@
 /*                                               NAVBAR                                               */
 nav{
   background: #272568;
+  width: 100%;
+  height: 70px;
 }
 .collapse{
   display: flex;
   justify-content: right;
-  width: 100%;
-  height: 50px;
   font-family: 'Poppins';
 }
 
 .navbar-brand{
   font-family: 'Manjari';
-  margin-left: 20px;
   font-size: 30px;
 }
 
 .nav-link{
   color: #D1D4F0;
   position: relative;
+  font-size: 17px;
+}
+
+.nav-link:hover{
+  color: #CECFC9;
+  border-bottom: 3px solid #CECFC9;
+  border-top: 3px solid #CECFC9;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 
 
 /*                                              FOOTER                                              */
 .footer{
-  width: 100%;
-  height: 180px;
   padding: 10px;
   bottom: 0;
   background: #272568;
   color: #fbfcff;
-  font-family: 'Manjari';
+  font-family: 'Poppins';
   font-size: 15px;
 }
 
@@ -93,20 +105,16 @@ nav{
 
 /*                                               HOME                                               */
 
-.container{
+.container-home{
   min-height: 100vh;
   width: 100%;
   place-content: center;
   font-family: 'Poppins', sans-serif;
-  background: #CECFC9;
 }
 .first-img{
 
 }
 
-.card-deck{
-  margin: 100px;
-}
 .card{
   font-family: 'Manjari';
   margin: 50px;
@@ -248,7 +256,6 @@ li{
 .works{
   text-align: center;
   font-size: 40px;
- 
   margin: 10px;
   display: inline-block;
   position: absolute;
@@ -260,7 +267,6 @@ li{
   border-radius: 8px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  margin: 20px;
   transition: all 0.25s;
   align-items: center;
 }
@@ -274,15 +280,14 @@ li{
   font-size: 14px;
 }
 
-.card-deck{
-  padding: 0 70px;
-}
 
 .btn-outline-dark{
   background: #ffffff;
-  font-size: 16px;
-  width: 200px;
- border: none;
+  font-size: 15px;
+  width:150px;
+  border: none;
+  
+  align-items: center;
  
 }
 
@@ -308,7 +313,7 @@ li{
 
 /*                                               EMPLEADOS                                               */
 
-.container-empleados{
+.container-acerca{
   margin-top: 70px;
   width: 100%;
   height: 100%;
@@ -317,8 +322,7 @@ li{
 }
 
 .empleados-div1{
-  width: 100%;
-  height: 500px;
+
   margin-top: 10px;
   padding: 15px;
 }
@@ -327,22 +331,20 @@ li{
   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 500px;
+  color: #CECFC9;
   margin-top: 10px;
 }
+
 
 .empleados-div3{
   width: 100%;
   height: 500px;
-  margin-top: 10px;
 }
 
 .img-empleados{
-  width: 550px;
-  height: 300px;
-  float: right;
+ align-items: center;
 }
+
 
 /*                                               COMMENTS EMPLEADOS                                               */
 
@@ -357,7 +359,7 @@ li{
   display: block;
   text-align: center;
   padding: 40% 5%;
-  background-color: #262626;
+  background-color: #0A3143;
   color: #fff;
   border-radius: 15px;
 }
@@ -369,7 +371,7 @@ li{
 }
 
 .img-text p{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .single-box{
@@ -379,6 +381,7 @@ li{
   width: 370px;
   height: 300px;
 }
+
 
 .img-area{
   position: absolute;
@@ -402,8 +405,39 @@ li{
 }
 
 .carousel-indicators li{
-  background: #000;
+  background: #0A3143;
   border-radius: 50%;
   width: 15px;
-  height: 15px;
+  height: 10px;
 }
+
+
+/*                                               TABLE EMPLEADOS                                               */
+
+.container-empleados{
+  padding: 80px;
+}
+
+.thead{
+  background: #0A3143;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                               CARDS SOBRE CURSOS                                               */
+
+
+

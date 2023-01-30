@@ -1,5 +1,4 @@
 
-/*
 import React, { useState, Fragment } from 'react';
 
 const Formulario2 = () => {
@@ -9,17 +8,17 @@ const Formulario2 = () => {
         apellido:""
         })
 
-    const refrescar = (e) = () =>{
+    const refrescar = (Event) = () =>{
 
         setdatos({
             ...datos,
-            [e.target.name]: e.target.value
+            [Event.target.name]: Event.target.value
         })
 
     }
-    const enviardatos =(event) =>{
-        event.preventDefault()
-        alert("Insertado" +datos.nombre, +datos.apellido)
+    const enviardatos =(Event) =>{
+        Event.preventDefault()
+        alert("Insertado" + datos.nombre + datos.apellido)
     }
 
 
@@ -27,8 +26,8 @@ const Formulario2 = () => {
     return ( 
         <Fragment>
 
-        <h1>FORMULARIO</h1>
-        <form className='row' onSubmit={enviardatos}>
+        <h2>FORMULARIO</h1>
+        <form className='row mt-5' onSubmit={enviardatos}>
             <div className='col-md-3'>
                 <input type="text" placeholder='Nombre' className='form-control' name='nombre' onChange={refrescar}></input>
             </div>
@@ -48,4 +47,3 @@ const Formulario2 = () => {
  
 export default Formulario2;
 
-*/

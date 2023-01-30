@@ -26,18 +26,19 @@ class Listado extends Component {
             //Expresiones Lamba
             <div>
                 <p>Componente Listado</p>
+
             <ul>
                 
                {this.state.persons.map(data => data.name)};
                
                 <hr/>
 
-               {this.state.persons.map(data => 
+              {this.state.persons.map(data => 
 
                 <li>{data.name}</li>
 
                 )}
-            </ul>
+            </ul> 
 
             </div>
          
