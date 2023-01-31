@@ -24,6 +24,56 @@ class Empleados extends Component {
 
     render() { 
         return (
+
+<div class="table w-100 p-5">
+<table class="table-striped">
+      <thead class="thead">
+        <tr>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <th>      
+            {this.state.empleados.map(data => 
+
+            <tr>{data.id}</tr>
+
+            )}</th>
+
+
+        <th>
+        {this.state.empleados.map(data => 
+
+        <tr>{data.name}</tr>
+
+        )}
+        </th>
+        <th>
+        {this.state.empleados.map(data => 
+
+        <tr>{data.email}</tr>
+
+        )}
+        </th>
+
+
+      </tbody>
+    </table>
+</div>
+
+
+        );
+    }           
+}
+ 
+export default Empleados;
+
+
+
+/*
+
             <div className='container-empleados'>
                 <table class="table table-bordered">
                     <thead className="thead">
@@ -59,12 +109,4 @@ class Empleados extends Component {
                     </tbody>
                     </table>
             </div>
-        );
-    }           
-}
- 
-export default Empleados;
-
-
-
-/**/
+*/

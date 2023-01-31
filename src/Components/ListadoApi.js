@@ -36,9 +36,9 @@ const ListadoApi = () => {
 
             <ul>
                 {
-                    respuesta.map(item =>{
+                    respuesta.map(item =>(
                         <li key="item.id">{item.title}</li>
-                    })
+                    ))
                 }
             </ul>
 

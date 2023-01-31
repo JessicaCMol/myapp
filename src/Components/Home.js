@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 class Home extends Component {
@@ -10,21 +11,32 @@ class Home extends Component {
           
           
           <div className='container-home container-fluid'>
-          
-          <div className='first'>
-              
-              <div className='introduccion'>
-                <h1>TU CAMINO HACIA EL EXITO</h1>
+          <div class="first w-100 h-100 row">
+
+            <div class="introduccion mt-5 col-sm">
+            <h1>TU CAMINO HACIA EL EXITO</h1>
                 <p>Las empresas buscan personas con habilidades informáticas, <br/>
                 gerenciales, de idiomas y mercadeo digital. Aprende con <br/> 
                 las clases 100% en vivo por Internet de VLA. Tu rumbo a un <br/>
                   mejor empleo empieza aquí.</p>
-              </div>
-              <div className='buttons'>
-              <button type="button" class="btn btn-outline-dark mt-2">Ver Cursos</button>
-              <button type="button" class="btn btn-outline-dark mt-2" >Ver clases gratuitas</button>
-              </div>
+                
+            <NavLink to="/works"><button type="button" 
+            class="btn btn-outline-dark mt-5 h-25">Ver clases gratuitas</button>
+            </NavLink>
+            </div>
+
+            <div class="col-sm embed-responsive embed-responsive-16by9 w-75 h-75 mb-5">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/dt63H3UPaXU" 
+          title="Evolucionamos a Virtual Learning of America" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+          gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+          </iframe>
+            </div>
+
           </div>
+ 
+
 
           <div class="second">
             <p>Compañías que confian en VLA</p>

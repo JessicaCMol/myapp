@@ -72,15 +72,15 @@ class Works extends Component {
               </div>
             </div>
             <div class="card col- m-50 w-50 h-70">
-              <img class="card-img-top" src="https://www.vectorlogo.zone/logos/python/python-ar21.png" alt="Card image cap"></img>
+              <img class="card-img-top" src="https://www.vectorlogo.zone/logos/python/python-ar21.png" alt="unknown"></img>
               <div class="card-body">
-                <h5 class="card-title">Cursos de Python</h5>
+                <h5 class="card-title">Cursos de Python</h5> 
                 <p class="card-text">Duración: 3 meses<br/> Límite: 30 estudiantes</p>
                 <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
               </div>
             </div>
             <div class="card col- m-50 w-50 h-70">
-              <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/441/892/998/brazil-flag-wallpaper-preview.jpg" alt="Card image cap"></img>
+              <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/441/892/998/brazil-flag-wallpaper-preview.jpg" alt="unknown"></img>
               <div class="card-body">
                 <h5 class="card-title">Cursos de Portugues</h5>
                 <p class="card-text">Duración: 8 meses<br/> Límite: 15 estudiantes</p>
@@ -90,7 +90,7 @@ class Works extends Component {
           </div>
           <div class="card-deck">
           <div class="card col- m-50 w-50 h-70">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PE1PmDnUOU7GHaBeChSnsBthvgm0O6a_CQ&usqp=CAU" alt="Card image cap"></img>
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PE1PmDnUOU7GHaBeChSnsBthvgm0O6a_CQ&usqp=CAU" alt="unknown"></img>
             <div class="card-body">
               <h5 class="card-title">Cursos de Español</h5>
               <p class="card-text">Próximamente</p>
@@ -98,7 +98,93 @@ class Works extends Component {
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
-            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="Card image cap"></img>
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PE1PmDnUOU7GHaBeChSnsBthvgm0O6a_CQ&usqp=CAU" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Español</h5>
+              <p class="card-text">Próximamente</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PE1PmDnUOU7GHaBeChSnsBthvgm0O6a_CQ&usqp=CAU" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Español</h5>
+              <p class="card-text">Próximamente</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PE1PmDnUOU7GHaBeChSnsBthvgm0O6a_CQ&usqp=CAU" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Español</h5>
+              <p class="card-text">Próximamente</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
+            <div class="card-body">
+              <h5 class="card-title">Cursos de Excel</h5>
+              <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
+              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+            </div>
+          </div>
+          <div class="card col- m-50 w-50 h-70">
+            <img class="card-img-top" src="https://www.islabit.com/wp-content/uploads/2019/06/Excel.jpg" alt="unknown"></img>
             <div class="card-body">
               <h5 class="card-title">Cursos de Excel</h5>
               <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>

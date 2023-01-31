@@ -26,7 +26,7 @@ const Formulario2 = () => {
     return ( 
         <Fragment>
 
-        <h2>FORMULARIO</h1>
+        <h1 class="mt-5">FORMULARIO</h1>
         <form className='row mt-5' onSubmit={enviardatos}>
             <div className='col-md-3'>
                 <input type="text" placeholder='Nombre' className='form-control' name='nombre' onChange={refrescar}></input>

@@ -28,7 +28,7 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/empleados">EMPLEADOS</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/listapi">LISTADOAPI</NavLink>
+                <NavLink className="nav-link" to="/list">LISTADO</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/form2">FORM2</NavLink>
