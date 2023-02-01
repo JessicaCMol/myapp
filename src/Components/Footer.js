@@ -11,24 +11,24 @@ class Footer extends Component {
                             <div class="row">
                                 <div class=" col-md-4 col-">
                                     <p>ACERCA DE VLA</p>
-                                    <p>Front-End Developer and UI Designer</p>
+                                    
                                 </div>
                                 <div class=" col-md-4 col-">
                                     <ul>
                                     <li>https://www.vla.academy.com</li>
-                                    <li>+507 833-5602</li>
-                                    <li>+1 786-633-4717</li>
-                                    <li>+506 4102 3282</li>
-                                    <li>+34 911 23 5522</li>
+                                    <li><i class="bi bi-whatsapp mr-2"></i>+507 833-5602</li>
+                                    <li><i class="bi bi-whatsapp mr-2"></i>+1 786-633-4717</li>
+                                    <li><i class="bi bi-whatsapp mr-2"></i>+506 4102 3282</li>
+                                    <li><i class="bi bi-whatsapp mr-2"></i>+34 911 23 5522</li>
                                     </ul>
                                 </div>
                                 <div class=" col-md-4 col-">
                                     <p>Nuestras redes sociales:</p>
                                     <ul>
-                                        <li>Facebook</li>
-                                        <li>Instagram</li>
-                                        <li>LinkedIn</li>
-                                        <li>TikTok</li>
+                                        <li><i class="bi bi-facebook mr-2"></i>Facebook</li>
+                                        <li><i class="bi bi-instagram mr-2"></i>Instagram</li>
+                                        <li><i class="bi bi-linkedin mr-2"></i>LinkedIn</li>
+                                        <li><i class="bi bi-tiktok mr-2"></i>TikTok</li>
                                     </ul>
                                 </div>
                             </div>
