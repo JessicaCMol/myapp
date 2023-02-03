@@ -13,7 +13,7 @@ import Contador from './Components/Contador';
 import Hooks from './Components/Hooks';
 import ListadoApi from './Components/ListadoApi';
 import Formulario2 from './Components/Formulario2';
-import Formulario3 from './Components/Formulario3';
+import HookForm from './Components/HookForm';
 import Empleados from './Components/Empleados';
 import AcercaVLA from './Components/acercavla';
 
@@ -35,7 +35,7 @@ class Router extends Component {
             <Route exact path="/form2" component={Formulario2}></Route>
             <Route exact path="/empleados" component={Empleados}></Route>
             <Route exact path="/acercavla" component={AcercaVLA}></Route>
-            <Route exact path="/form3" component={Formulario3}></Route>
+            <Route exact path="/hookform" component={HookForm}></Route>
             <Route exact path="/" component={Home}></Route>
             
             <Footer></Footer>

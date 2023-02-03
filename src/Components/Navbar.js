@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/form2">FORM2</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/form3">FORM3</NavLink>
+                <NavLink className="nav-link" to="/hookform">FORM3</NavLink>
               </li>
             </ul>
           </div>
