@@ -16,7 +16,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Marketing Digital</h5>
                   <p class="card-text">Duración: 3 meses/nivel<br/> Límite: 30 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
               <div class="card col- m-50 w-50 h-70">
@@ -24,7 +25,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Curso de Ingles</h5>
                   <p class="card-text">Duración: 4 meses/nivel<br/> Límite: 15 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
               <div class="card col- m-50 w-50 h-70">
@@ -32,7 +34,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Técnico en Cisco</h5>
                   <p class="card-text">Duración: 6 meses<br/> Límite: 30 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
             </div>
@@ -42,7 +45,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Cursos Web Developer</h5>
                   <p class="card-text">Duración: 7 meses<br/> Límite: 30 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
               <div class="card col- m-50 w-50 h-70">
@@ -50,7 +54,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Bootcamp Examen CCNA</h5>
                   <p class="card-text">Duración: 3 meses<br/> Límite: 30 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
               <div class="card col- m-50 w-50 h-70">
@@ -58,7 +63,8 @@ class Works extends Component {
                 <div class="card-body">
                   <h5 class="card-title">Cursos de Linux</h5>
                   <p class="card-text">Duración: 3 meses<br/> Límite: 30 estudiantes</p>
-                  <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                  <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
                 </div>
               </div>
             </div>
@@ -68,7 +74,8 @@ class Works extends Component {
               <div class="card-body">
                 <h5 class="card-title">Cursos de AWS</h5>
                 <p class="card-text">Duración: 2 meses<br/> Límite: 30 estudiantes</p>
-                <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
               </div>
             </div>
             <div class="card col- m-50 w-50 h-70">
@@ -76,7 +83,8 @@ class Works extends Component {
               <div class="card-body">
                 <h5 class="card-title">Cursos de Python</h5> 
                 <p class="card-text">Duración: 3 meses<br/> Límite: 30 estudiantes</p>
-                <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
               </div>
             </div>
             <div class="card col- m-50 w-50 h-70">
@@ -84,7 +92,8 @@ class Works extends Component {
               <div class="card-body">
                 <h5 class="card-title">Cursos de Portugues</h5>
                 <p class="card-text">Duración: 8 meses<br/> Límite: 15 estudiantes</p>
-                <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+                <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
               </div>
             </div>
           </div>
@@ -94,7 +103,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Español</h5>
               <p class="card-text">Próximamente</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -102,7 +112,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Excel</h5>
               <p class="card-text">Duración: 2 meses/nivel<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -110,7 +121,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Project Management</h5>
               <p class="card-text">Duración: 5 meses/nivel<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
         </div>
@@ -120,7 +132,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de JNCIA</h5>
               <p class="card-text">Duración: 3 meses<br/> Límite: 30 estudiantese</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -128,7 +141,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de SQL</h5>
               <p class="card-text">Duración: 3 meses/nivel<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -136,7 +150,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de VMWare</h5>
               <p class="card-text">Próximamente</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
         </div>
@@ -146,7 +161,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Six Sigma</h5>
               <p class="card-text">Duración: 2 meses<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -154,7 +170,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Scrum Master</h5>
               <p class="card-text">Duración: 2 meses<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
           <div class="card col- m-50 w-50 h-70">
@@ -162,7 +179,8 @@ class Works extends Component {
             <div class="card-body">
               <h5 class="card-title">Cursos de Ciberseguridad</h5>
               <p class="card-text">Duración: 3 meses/nivel<br/> Límite: 30 estudiantes</p>
-              <button type="button" class="btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark h-25">Ver información</button>
+              <button type="button" class="btn-cursos btn btn-outline-dark m-2 h-25">Clase gratis</button>
             </div>
           </div>
         </div>

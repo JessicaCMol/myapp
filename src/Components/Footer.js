@@ -16,10 +16,10 @@ class Footer extends Component {
                                 <div class=" col-md-4 col-">
                                     <ul>
                                     <li>https://www.vla.academy.com</li>
-                                    <li><i class="bi bi-whatsapp mr-2"></i>+507 833-5602</li>
-                                    <li><i class="bi bi-whatsapp mr-2"></i>+1 786-633-4717</li>
-                                    <li><i class="bi bi-whatsapp mr-2"></i>+506 4102 3282</li>
-                                    <li><i class="bi bi-whatsapp mr-2"></i>+34 911 23 5522</li>
+                                    <li><i class="bi bi-whatsapp mr-3"></i>+507 833-5602</li>
+                                    <li><i class="bi bi-whatsapp mr-3"></i>+1 786-633-4717</li>
+                                    <li><i class="bi bi-whatsapp mr-3"></i>+506 4102 3282</li>
+                                    <li><i class="bi bi-whatsapp mr-3"></i>+34 911 23 5522</li>
                                     </ul>
                                 </div>
                                 <div class=" col-md-4 col-">

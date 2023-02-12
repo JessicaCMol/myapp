@@ -448,4 +448,6 @@ li{
 
 /*                                               CARDS SOBRE CURSOS                                               */
 
-
+.btn-cursos{
+  display: inline;
+}
