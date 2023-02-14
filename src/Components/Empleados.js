@@ -25,7 +25,13 @@ class Empleados extends Component {
     render() { 
         return (
 
-<div class="table w-100 p-5">
+<div>
+
+<header className='mt-5 pt-5'>
+    <h1 className='mt-5 p-5'>Información sobre nuestros asesores</h1>
+</header>
+
+<div class="table w-100">
 <table class="table-striped">
       <thead class="thead">
         <tr>
@@ -62,6 +68,9 @@ class Empleados extends Component {
       </tbody>
     </table>
 </div>
+</div>
+
+
 
 
         );

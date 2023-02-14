@@ -6,7 +6,7 @@ class AcercaVLA extends Component {
         return (
         <div className='container-acerca'>
             <div className='empleados-div1 w-100 h-100'>
-                <img className='img-empleados col- m-5 w-50 h-50' src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2022/01/13164036/landing-copia-100-1536x864.jpg'></img>
+                <img className='img-empleados col- m-5 w-50 h-50' src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2022/01/13164036/landing-copia-100-1536x864.jpg' alt='uknown'></img>
                 
                 <div class="row">
                     <div class="col align-self-start">
@@ -135,7 +135,7 @@ class AcercaVLA extends Component {
                                     <div className='img-area'><img src='https://thumbs.dreamstime.com/b/hombre-magn%C3%ADfico-31703893.jpg' alt='unknown'></img></div>
                                     <div className='img-text'> 
                                         <h2>Armando García</h2>
-                                        <p>VLA danwebiv dncfwrnfvir iondvcoifrwndiov pidcvjirwnvsid diwvncordsincvprn iwnviprnipdcn iewvhpiwneifc idcvnDNCVOLDSFR DN</p>
+                                        <p>VLA tiene cursos muy bien programados.</p>
                                     </div>
                                     </div> 
                                 </div>
@@ -165,7 +165,7 @@ class AcercaVLA extends Component {
                             <div className='row m-5'>
                                 <div className='col-md-4'>
                                    <div className='single-box'>
-                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160951/175682355_791255244838091_5530568541118406036_n.jpeg'></img></div>
+                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160951/175682355_791255244838091_5530568541118406036_n.jpeg' alt='uknown'></img></div>
                                     <div className='img-text'>
                                         <h2>Sebastian Durango</h2>
                                         <p>Recomiendo a Virtual Learning Academy por su calidad y experiencia. El trato y conocimiento de sus profesionales es extraordinario. Sus lecciones aportan contenido de alta calidad.</p>
@@ -174,7 +174,7 @@ class AcercaVLA extends Component {
                                 </div>
                                 <div className='col-md-4'>
                                    <div className='single-box'>
-                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160951/167436800_5318016288241078_1224355386215762595_n.jpeg'></img></div>
+                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160951/167436800_5318016288241078_1224355386215762595_n.jpeg' alt='uknown'></img></div>
                                     <div className='img-text'>
                                         <h2>Fio Campos</h2>
                                         <p>Buenos profesores, enfocados en sus alumnos y muchas facilidades.</p>
@@ -183,7 +183,7 @@ class AcercaVLA extends Component {
                                 </div>
                                 <div className='col-md-4'>
                                    <div className='single-box'>
-                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160950/51580533_10218061391147545_1634833190453510144_n-e1620333808109.jpeg'></img></div>
+                                    <div className='img-area'><img src='https://s3.amazonaws.com/vla.academy/wp-content/uploads/2021/05/13160950/51580533_10218061391147545_1634833190453510144_n-e1620333808109.jpeg' alt='uknown'></img></div>
                                     <div className='img-text'>
                                         <h2>Renee Lacayo</h2>
                                         <p>VLA se enfoca en ayudar a sus alumnos a cumplir sus metas en los estudios. Su prioridad son los alumnos y darles una educación de calidad.</p>

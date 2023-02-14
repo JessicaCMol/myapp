@@ -30,13 +30,7 @@ class Navbar extends Component {
                 <NavLink className="nav-link" to="/empleados">EMPLEADOS</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/list">LISTADO</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/form2">FORM2</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/hookform">FORM3</NavLink>
+                <NavLink className="nav-link" to="/hookform">REGISTRO</NavLink>
               </li>
             </ul>
           </div>
@@ -49,7 +43,7 @@ class Navbar extends Component {
 export default Navbar;
 
 
-/*              <li className="nav-item">
+/*<li className="nav-item">
                 <NavLink className="nav-link" to="/cont">CONTADOR</NavLink>
               </li>
               <li className="nav-item">
@@ -61,9 +55,10 @@ export default Navbar;
               <li className="nav-item">
                 <NavLink className="nav-link" to="/form2">FORMULARIO 2</NavLink>
               </li>
-
-*/
-
-/*
-
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/list">LISTADO</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/form2">FORM2</NavLink>
+              </li>
 */

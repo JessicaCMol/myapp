@@ -11,7 +11,7 @@ class Home extends Component {
           
           
           <div className='container-home container-fluid'>
-          <div class="first w-100 h-100 row">
+          <div class="first mt-4 w-100 h-100 row">
 
             <div class="introduccion mt-5 pt-5 col-sm">
             <h1>TU CAMINO HACIA EL EXITO</h1>
@@ -21,7 +21,7 @@ class Home extends Component {
                   mejor empleo empieza aquí.</p>
                 
             <NavLink to="/works"><button type="button" 
-            class="btn btn-outline-dark mt-5 h-25"><i class="bi bi-laptop-fill mr-2"></i>Ver clases gratuitas</button>
+            class="btn btn-warning mt-5 h-25"><i class="bi bi-laptop-fill mr-2"></i>Ver clases gratuitas</button>
             </NavLink>
             </div>
 

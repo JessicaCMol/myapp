@@ -154,6 +154,7 @@ nav{
   margin-top: 350px;
 }
 
+/*
 .btn{
   width: 90px;
   height: 40px;
@@ -163,6 +164,7 @@ nav{
   font-size: 10px;
   align-items: center;
 }
+*/
 
 .first{
 
@@ -245,9 +247,9 @@ li{
 .projects{
   text-align: center;
   margin: 20px;
-  margin-top: 10px;
   display: inline-block;
   font-family: Poppins;
+  margin-top: 30px;
 }
 
 
@@ -342,6 +344,11 @@ li{
  align-items: center;
 }
 
+.tituloempleados{
+  margin-top: 30px;
+  background: red;
+}
+
 
 /*                                               COMMENTS EMPLEADOS                                               */
 
@@ -423,17 +430,14 @@ li{
 
 
 
-
-
-
-
-
 .table{
   margin: auto;
-  margin-top: 200px;
+  margin-top: 5px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 .separador{
   border-bottom: 1px dotted #000;
@@ -451,3 +455,5 @@ li{
 .btn-cursos{
   display: inline;
 }
+
+
