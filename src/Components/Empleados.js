@@ -35,8 +35,8 @@ class Empleados extends Component {
 <table class="table-striped">
       <thead class="thead">
         <tr>
+          <th>ID</th>
           <th>Nombre</th>
-          <th>Teléfono</th>
           <th>Email</th>
         </tr>
       </thead>
